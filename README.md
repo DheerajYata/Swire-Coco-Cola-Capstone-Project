@@ -1,118 +1,32 @@
-# Swire Coca-Cola Capstone Project: Predictive Maintenance 
+# Swire Coca-Cola Capstone Project: Predictive Maintenance
 
 ## Summary of Business Problem and Project Objective
 
-Swire Coca-Cola, a leading U.S. Coca-Cola bottler, operates six production plants and produces nearly 192 million beverage cases annually. However, frequent unplanned machine downtimes disrupt operations, reducing production efficiency to 94.4% of ordered cases and resulting in annual losses of $60 million.
-
-**Objective:**  
-The project aimed to transition Swire Coca-Cola from a reactive to a proactive maintenance strategy by leveraging data analytics and predictive modeling. The main goals were to:
-
-- Reduce unplanned downtimes and associated costs.
-- Enhance machine reliability and operational efficiency.
-- Optimize maintenance schedules for improved production output.
-- Provide actionable, data-driven recommendations.
+Swire Coca-Cola, a leading bottler in the United States, operates six production plants and produces approximately 192 million beverage cases annually. However, the company faces significant operational disruptions due to frequent unplanned machine downtimes, which reduce production efficiency to only 94.4% of ordered cases. This inefficiency results in an estimated annual loss of $60 million. The primary objective of this project was to transition Swire Coca-Cola from a reactive maintenance approach to a proactive one by leveraging data analytics and predictive modeling. The focus was on reducing unplanned downtimes, improving machine reliability and operational efficiency, optimizing maintenance schedules, and providing actionable recommendations driven by data insights.
 
 ## Our Group's Solution
 
-To tackle this challenge, the team adopted the **CRISP-DM Framework**, systematically progressing through six phases:
+The team approached the problem systematically by utilizing the CRISP-DM framework, which provided a structured methodology to address the business challenge. The project began with an in-depth understanding of the business objectives, which helped in defining the scope of the problem and outlining actionable goals for predictive maintenance. We then analyzed over 1.4 million work order records from multiple plants, identifying patterns and key drivers of downtime through exploratory data analysis (EDA). Addressing missing data and refining the dataset allowed us to isolate critical predictors such as maintenance types and functional area nodes.
 
-1. **Business Understanding:**  
-   Defined the scope of the problem and outlined objectives for predictive maintenance.
-   
-2. **Data Understanding:**  
-   - Analyzed over 1.4 million work order records across multiple plants and equipment categories.
-   - Conducted exploratory data analysis (EDA) to uncover patterns and drivers of downtime.
-   - Addressed missing data and identified critical predictors, such as maintenance type and functional nodes.
-
-3. **Feature Engineering:**  
-   - Created new variables, including breakdown frequency, time between failures, and downtime trends.
-   - Prioritized features influencing machine breakdowns.
-
-4. **Modeling:**  
-   - Developed predictive models using **Kaplan-Meier Survival Analysis**, **Cox Proportional Hazard Models**, and **time-series analysis**.
-   - Evaluated models for performance and interpretability.
-
-5. **Evaluation:**  
-   - Identified high-risk equipment and locations for targeted maintenance.
-   - Analyzed seasonal downtime trends to optimize scheduling.
-
-6. **Deployment Recommendations:**  
-   - Transitioned to proactive maintenance for high-risk equipment like fillers and packers.
-   - Suggested inventory optimization for critical spare parts.
-   - Provided data-driven insights for aligning maintenance during low-demand periods.
+Feature engineering played a crucial role in creating meaningful variables like breakdown frequency, time between failures, and downtime trends, which enhanced the predictive power of our models. We employed advanced modeling techniques, including Kaplan-Meier survival analysis, Cox Proportional Hazard Models, and time-series analysis, to gain insights into machine breakdowns and seasonal patterns. The evaluation phase identified high-risk equipment and locations, while insights into seasonal downtime trends helped refine maintenance schedules. Finally, we recommended a proactive maintenance strategy targeting high-risk equipment such as fillers and packers, along with inventory optimization and resource alignment to minimize disruptions and enhance production reliability.
 
 ## My Contribution to the Project
 
-As an integral part of the team, I contributed significantly to various aspects of the project:
+As a key contributor to the project, I played a significant role in data analysis, modeling, and delivering actionable insights. During the data exploration phase, I conducted thorough exploratory data analysis to uncover critical trends and drivers of machine downtime, providing insights that guided the team’s approach. I developed visualizations that effectively communicated the findings to stakeholders, enabling a deeper understanding of the operational challenges.
 
-### Data Exploration and Insights
-- Conducted in-depth exploratory data analysis (EDA) to uncover trends and visualize the key drivers of machine downtime.
-- Developed visualizations that clearly communicated insights to stakeholders.
+In feature engineering, I created impactful variables such as time-to-failure metrics and downtime trends, which enhanced the models’ predictive capabilities. I meticulously analyzed the factors contributing to machine downtime, prioritizing actionable insights that addressed the project’s objectives. On the modeling front, I worked extensively with Kaplan-Meier survival analysis and Cox Proportional Hazard Models to predict time-to-failure and identify high-risk factors. I also leveraged time-series models to uncover breakdown patterns and seasonal trends, providing actionable strategies for optimizing maintenance.
 
-### Feature Engineering
-- Designed critical features, such as time-to-failure metrics and downtime trends, to improve model performance and interpretability.
-- Analyzed factors contributing to machine downtime, prioritizing actionable insights.
-
-### Modeling
-- Worked extensively with **Kaplan-Meier Survival Analysis** and **Cox Proportional Hazard Models** to predict time-to-failure and identify risk factors.
-- Leveraged time-series models to provide insights into breakdown patterns and seasonal trends.
-
-### Documentation and Communication
-- Proofread project deliverables to ensure accuracy, clarity, and alignment with business goals.
-- Contributed to the final presentation, translating technical findings into actionable strategies for Swire Coca-Cola stakeholders.
+Additionally, I contributed to documentation and communication by proofreading deliverables to ensure clarity and alignment with business objectives. My involvement in the final presentation ensured that our technical findings were translated into actionable recommendations that addressed Swire Coca-Cola's strategic goals.
 
 ## Business Value of the Solution
 
-The proposed solution offered the following business benefits:
-
-1. **Downtime Reduction:**  
-   Transitioned from reactive to proactive maintenance, reducing machine downtime and saving an estimated $60 million annually.
-
-2. **Operational Efficiency:**  
-   Optimized maintenance schedules and prioritized high-risk equipment, improving overall production reliability.
-
-3. **Data-Driven Decision Making:**  
-   Established a foundation for predictive maintenance, enabling Swire Coca-Cola to plan for long-term operational success.
-
-4. **Resource Optimization:**  
-   Improved inventory planning for critical spare parts, minimizing disruptions.
+The solutions developed through this project offer substantial business value to Swire Coca-Cola. By transitioning from a reactive to a proactive maintenance strategy, the company can significantly reduce machine downtimes, potentially saving up to $60 million annually. The recommendations provided include tailored maintenance schedules and a focus on high-risk equipment, which will improve operational efficiency and production reliability. Furthermore, the data-driven approach established a foundation for long-term predictive maintenance, aligning with the company's strategic goals. Optimized resource allocation, such as inventory planning for critical spare parts, minimizes production disruptions and enhances overall operational stability.
 
 ## Difficulties Encountered
 
-Despite the success of the project, we faced several challenges:
-
-- **Data Quality Issues:**  
-   - Missing data in critical variables, such as maintenance plans (89% missing values).  
-   - Inconsistent documentation practices across plants.
-
-- **Modeling Trade-offs:**  
-   - Balancing model interpretability and predictive power to align with business needs.
-   - Computational limitations for testing advanced models and hyperparameter tuning.
-
-- **Time Constraints:**  
-   - Limited time to conduct exhaustive analyses across datasets and methodologies.
+Despite the project’s success, the team faced several challenges that required innovative solutions. Data quality issues were a significant hurdle, with critical variables like maintenance plans having a high percentage of missing values (89%). Inconsistent documentation practices across plants further complicated the data cleaning process. Balancing model interpretability and predictive accuracy presented another challenge, as it was crucial to align the technical results with business requirements. Additionally, computational constraints limited our ability to test advanced models and perform extensive hyperparameter tuning. Finally, time constraints posed challenges in conducting exhaustive analyses across datasets, but the team effectively managed these hurdles to deliver meaningful results.
 
 ## What I Learned
 
-This project provided numerous learning opportunities, including:
-
-1. **Advanced Analytics Techniques:**  
-   - Mastery of survival analysis and its application in predictive maintenance.
-   - Proficiency in feature engineering and time-series analysis for operational insights.
-
-2. **Visualization Skills:**  
-   - Developed impactful visualizations that communicated findings effectively to stakeholders.
-
-3. **Collaboration:**  
-   - Worked in a team setting, ensuring seamless integration of individual contributions.
-
-4. **Business Acumen:**  
-   - Gained a deeper understanding of how machine downtime impacts production flow and overall business performance.
-
-5. **Strategic Thinking:**  
-   - Focused on delivering actionable solutions that align with Swire Coca-Cola's strategic objectives.
-
-## Acknowledgments
-
-We thank Swire Coca-Cola for the opportunity to work on this impactful project. Special thanks to our faculty advisor and team members for their guidance and collaboration.
+This project was a rich learning experience that provided both technical and practical insights. I gained expertise in advanced analytics techniques, including survival analysis and time-series modeling, which proved invaluable in addressing the business problem. The project enhanced my visualization skills, enabling me to communicate complex findings effectively through impactful visual narratives. Collaborating with a diverse team honed my teamwork and communication abilities, ensuring seamless integration of individual contributions. The project also deepened my understanding of the impact of machine downtime on production flow and business performance, reinforcing the importance of aligning technical solutions with strategic goals. Overall, this experience has strengthened my problem-solving and strategic thinking skills, equipping me to tackle similar challenges in the future.
 
