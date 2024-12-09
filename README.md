@@ -12,7 +12,7 @@ Feature engineering played a crucial role in creating meaningful variables like 
 
 ## My Contribution to the Project
 
-As a key contributor to the project, I played a significant role in data analysis, modeling, and delivering actionable insights. During the data exploration phase, I conducted thorough exploratory data analysis to uncover critical trends and drivers of machine downtime, providing insights that guided the team’s approach. I developed visualizations that effectively communicated the findings to stakeholders, enabling a deeper understanding of the operational challenges.
+As a key contributor to the project, I played a significant role in data analysis, modeling, and delivering actionable insights. During the data exploration phase, I addressed missing data and conducted thorough exploratory data analysis to uncover critical trends and drivers of machine downtime, providing insights that guided the team’s approach. I developed few visualizations that effectively communicated the findings to stakeholders, enabling a deeper understanding of the operational challenges.
 
 In feature engineering, I created impactful variables such as time-to-failure metrics and downtime trends, which enhanced the models’ predictive capabilities. I meticulously analyzed the factors contributing to machine downtime, prioritizing actionable insights that addressed the project’s objectives. On the modeling front, I worked extensively with Kaplan-Meier survival analysis and Cox Proportional Hazard Models to predict time-to-failure and identify high-risk factors. I also leveraged time-series models to uncover breakdown patterns and seasonal trends, providing actionable strategies for optimizing maintenance.
 
